@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nave_home"
+    app:startDestination="@id/usersInfo2">
+
+    <fragment
+        android:id="@+id/usersInfo2"
+        android:name="com.example.ui.home.UsersInfo"
+        android:label="fragment_users_info"
+        tools:layout="@layout/fragment_users_info" />
+</navigation>
