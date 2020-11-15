@@ -22,7 +22,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.ui.home.HomeActivity" />
+        <activity
+            android:name="com.example.ui.home.HomeActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.ui.auth.AuthActivity"
             android:screenOrientation="portrait" />
