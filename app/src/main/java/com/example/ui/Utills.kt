@@ -5,6 +5,7 @@ import android.content.Intent
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.network.Resources
+import com.example.reglogapi.R
 import com.example.ui.auth.Login
 import com.example.ui.base.Basefragment
 import com.google.android.material.snackbar.Snackbar
@@ -37,7 +38,7 @@ fun View.snackbar(message: String, action: (() -> Unit)? = null) {
     val snackbar = Snackbar.make(this, message, Snackbar.LENGTH_LONG)
 
     action?.let {
-        snackbar.setAction("retry") {
+        snackbar.setAction(R.string.retry) {
             it()
         }
     }
@@ -51,13 +52,12 @@ fun Fragment.handleApiError(
 ) {
 
     when {
-        failure.isNetworkError -> requireView().snackbar(
-            "Please check your internet connection",
+        failure.isNetworkError -> requireView().snackbar(getString(R.string.no_network_message),
             retry
         )
         failure.Code == 401 -> {
             if (this is Login) {
-                requireView().snackbar("Wrong email or password")
+                requireView().snackbar(getString(R.string.wrong_email_or_password))
             } else {
                 (this as Basefragment<*, *, *>).logout()
             }

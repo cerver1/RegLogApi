@@ -26,14 +26,13 @@ class UsersInfo : Basefragment<HomeViewModel, FragmentUsersInfoBinding, UserRepo
     override fun getFragmentRepository(): UserRepository {
         val token = runBlocking { userPreferences.authtoken.first() }
         val api = remoteDataSource.buildApi(UserApi::class.java, token)
-
         return UserRepository(api)
     }
 
 
+
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
 
         if (savedInstanceState == null) {
             viewModel.getUser()
@@ -52,11 +51,10 @@ class UsersInfo : Basefragment<HomeViewModel, FragmentUsersInfoBinding, UserRepo
             }
         })
 
+
         binding.userinfologoutbtn.setOnClickListener {
             binding.userinfoprogressbar.visible(true)
             logout()
-
-
         }
 
 

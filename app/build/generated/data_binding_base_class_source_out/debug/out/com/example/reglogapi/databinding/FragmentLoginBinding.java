@@ -10,6 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
@@ -23,10 +24,16 @@ public final class FragmentLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Guideline guideline3;
+  public final CardView cardView;
 
   @NonNull
-  public final Guideline guideline5;
+  public final CardView cardView2;
+
+  @NonNull
+  public final CardView cardView4;
+
+  @NonNull
+  public final Guideline guideline3;
 
   @NonNull
   public final Button loginBtn;
@@ -46,19 +53,30 @@ public final class FragmentLoginBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-  private FragmentLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Guideline guideline3,
-      @NonNull Guideline guideline5, @NonNull Button loginBtn, @NonNull EditText loginemail,
-      @NonNull EditText loginpassword, @NonNull ProgressBar loginprogressbar,
-      @NonNull TextView signuptext, @NonNull TextView textView) {
+  @NonNull
+  public final TextView textView5;
+
+  @NonNull
+  public final TextView textView6;
+
+  private FragmentLoginBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
+      @NonNull CardView cardView2, @NonNull CardView cardView4, @NonNull Guideline guideline3,
+      @NonNull Button loginBtn, @NonNull EditText loginemail, @NonNull EditText loginpassword,
+      @NonNull ProgressBar loginprogressbar, @NonNull TextView signuptext,
+      @NonNull TextView textView, @NonNull TextView textView5, @NonNull TextView textView6) {
     this.rootView = rootView;
+    this.cardView = cardView;
+    this.cardView2 = cardView2;
+    this.cardView4 = cardView4;
     this.guideline3 = guideline3;
-    this.guideline5 = guideline5;
     this.loginBtn = loginBtn;
     this.loginemail = loginemail;
     this.loginpassword = loginpassword;
     this.loginprogressbar = loginprogressbar;
     this.signuptext = signuptext;
     this.textView = textView;
+    this.textView5 = textView5;
+    this.textView6 = textView6;
   }
 
   @Override
@@ -88,15 +106,27 @@ public final class FragmentLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.guideline3;
-      Guideline guideline3 = rootView.findViewById(id);
-      if (guideline3 == null) {
+      id = R.id.cardView;
+      CardView cardView = rootView.findViewById(id);
+      if (cardView == null) {
         break missingId;
       }
 
-      id = R.id.guideline5;
-      Guideline guideline5 = rootView.findViewById(id);
-      if (guideline5 == null) {
+      id = R.id.cardView2;
+      CardView cardView2 = rootView.findViewById(id);
+      if (cardView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView4;
+      CardView cardView4 = rootView.findViewById(id);
+      if (cardView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline3;
+      Guideline guideline3 = rootView.findViewById(id);
+      if (guideline3 == null) {
         break missingId;
       }
 
@@ -136,8 +166,21 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentLoginBinding((ConstraintLayout) rootView, guideline3, guideline5, loginBtn,
-          loginemail, loginpassword, loginprogressbar, signuptext, textView);
+      id = R.id.textView5;
+      TextView textView5 = rootView.findViewById(id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView6;
+      TextView textView6 = rootView.findViewById(id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      return new FragmentLoginBinding((ConstraintLayout) rootView, cardView, cardView2, cardView4,
+          guideline3, loginBtn, loginemail, loginpassword, loginprogressbar, signuptext, textView,
+          textView5, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

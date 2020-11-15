@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.widget.addTextChangedListener
+import androidx.core.widget.doAfterTextChanged
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.network.AuthApi
@@ -53,9 +54,11 @@ class Login : Basefragment<AuthViewModel, FragmentLoginBinding, AuthRepository>(
             binding.loginBtn.enable(it.toString().isNotEmpty() && password.isNotEmpty())
         }
 
+
+
         binding.loginpassword.addTextChangedListener {
-            val enail = binding.loginemail.text.toString().trim()
-            binding.loginBtn.enable(it.toString().isNotEmpty() && enail.isNotEmpty())
+            val email = binding.loginemail.text.toString().trim()
+            binding.loginBtn.enable(it.toString().isNotEmpty() && email.isNotEmpty())
         }
 
 

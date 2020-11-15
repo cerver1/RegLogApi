@@ -3,28 +3,135 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcomepage"
+    android:background="@drawable/mybackground"
+    android:orientation="vertical"
     tools:context="com.example.ui.auth.Login">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        app:cardBackgroundColor="#22333B"
+        app:layout_constraintBottom_toBottomOf="@+id/loginpassword"
+        app:layout_constraintEnd_toStartOf="@+id/loginpassword"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginpassword"
+        app:layout_constraintVertical_bias="0.6">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_password">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        app:cardBackgroundColor="#22333B"
+        app:layout_constraintBottom_toBottomOf="@+id/loginemail"
+        app:layout_constraintEnd_toStartOf="@+id/loginemail"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginemail"
+        app:layout_constraintVertical_bias="0.65"
+        style="@style/iconswh">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_user">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:cardBackgroundColor="#22333B"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintCircleRadius="@dimen/_200sdp"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_reglogapplogo">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="231dp" />
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_27sdp"
+        android:layout_marginRight="@dimen/_27sdp"
+        android:layout_marginBottom="@dimen/_27sdp"
+        android:text="@string/logintoconti"
+        android:textColor="#96A7AF"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_27sdp"
+        android:layout_marginRight="@dimen/_27sdp"
+        android:text="@string/welcome"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="@dimen/_30ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        tools:text="@string/welcome" />
 
     <EditText
         android:id="@+id/loginemail"
-        android:layout_width="280dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="15dp"
-        android:background="@drawable/edittextbackgroud"
-        android:hint="Email:"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_54sdp"
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/loginpassword"
+        android:textColor="#96A7AF"
+        android:textColorHint="#96A7AF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3">
 
@@ -32,94 +139,86 @@
 
     <EditText
         android:id="@+id/loginpassword"
-        android:layout_width="280dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/edittextbackgroud"
-        android:hint="Password:"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_54sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:hint="@string/password"
         android:inputType="textWebPassword"
-        app:layout_constraintBottom_toTopOf="@+id/login_btn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signupname">
+        android:textColor="#96A7AF"
+        android:textColorHint="#96A7AF"
+        app:layout_constraintEnd_toEndOf="@+id/loginemail"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="@+id/loginemail"
+        app:layout_constraintTop_toBottomOf="@+id/loginemail">
 
     </EditText>
 
-    <Button
-
-        android:id="@+id/login_btn"
-        android:layout_width="133dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/loginbutton"
-        android:text="Login"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginpassword">
-
-    </Button>
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="29dp"
-        android:fontFamily="georgia"
-        android:text="You need an account?"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline5">
-
-    </TextView>
-
-    <TextView
-        android:id="@+id/signuptext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="183dp"
-        android:layout_marginRight="183dp"
-        android:layout_marginBottom="65dp"
-        android:fontFamily="georgia"
-        android:text="Signup"
-        android:textColor="#DC1D1D"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/guideline5">
-
-    </TextView>
 
     <ProgressBar
         android:id="@+id/loginprogressbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/loginemail"
         app:layout_constraintEnd_toEndOf="@+id/loginemail"
+        app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="@+id/loginemail"
         app:layout_constraintTop_toTopOf="@+id/guideline3">
 
     </ProgressBar>
 
+    <Button
+
+        android:id="@+id/login_btn"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="@+id/loginpassword"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/loginpassword"
+        app:layout_constraintTop_toBottomOf="@id/loginpassword"
+        style="@style/btnstyle">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/newaccount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn"
+        style="@style/smalltextstyle">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/signuptext"
+
+        android:text="@string/signup"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        style="@style/textbtnstyle">
+
+    </TextView>
+
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
+        android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_411sdp"
+        android:layout_marginEnd="@dimen/_432sdp"
+        android:layout_marginRight="@dimen/_432sdp"
+        android:layout_marginBottom="@dimen/_453sdp"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="595dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="450dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

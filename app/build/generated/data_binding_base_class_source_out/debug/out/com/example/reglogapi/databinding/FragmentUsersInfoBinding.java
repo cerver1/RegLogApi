@@ -10,6 +10,7 @@ import android.widget.TableLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
@@ -23,10 +24,16 @@ public final class FragmentUsersInfoBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Guideline guideline4;
+  public final CardView cardView;
+
+  @NonNull
+  public final Guideline guideline6;
 
   @NonNull
   public final TableLayout table;
+
+  @NonNull
+  public final TextView textView7;
 
   @NonNull
   public final TextView useremail;
@@ -52,14 +59,17 @@ public final class FragmentUsersInfoBinding implements ViewBinding {
   @NonNull
   public final TextView usernamedisplay;
 
-  private FragmentUsersInfoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Guideline guideline4, @NonNull TableLayout table, @NonNull TextView useremail,
-      @NonNull TextView useremaildisplay, @NonNull TextView userid, @NonNull TextView useriddisplay,
-      @NonNull Button userinfologoutbtn, @NonNull ProgressBar userinfoprogressbar,
-      @NonNull TextView username, @NonNull TextView usernamedisplay) {
+  private FragmentUsersInfoBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
+      @NonNull Guideline guideline6, @NonNull TableLayout table, @NonNull TextView textView7,
+      @NonNull TextView useremail, @NonNull TextView useremaildisplay, @NonNull TextView userid,
+      @NonNull TextView useriddisplay, @NonNull Button userinfologoutbtn,
+      @NonNull ProgressBar userinfoprogressbar, @NonNull TextView username,
+      @NonNull TextView usernamedisplay) {
     this.rootView = rootView;
-    this.guideline4 = guideline4;
+    this.cardView = cardView;
+    this.guideline6 = guideline6;
     this.table = table;
+    this.textView7 = textView7;
     this.useremail = useremail;
     this.useremaildisplay = useremaildisplay;
     this.userid = userid;
@@ -97,15 +107,27 @@ public final class FragmentUsersInfoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.guideline4;
-      Guideline guideline4 = rootView.findViewById(id);
-      if (guideline4 == null) {
+      id = R.id.cardView;
+      CardView cardView = rootView.findViewById(id);
+      if (cardView == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline6;
+      Guideline guideline6 = rootView.findViewById(id);
+      if (guideline6 == null) {
         break missingId;
       }
 
       id = R.id.table;
       TableLayout table = rootView.findViewById(id);
       if (table == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = rootView.findViewById(id);
+      if (textView7 == null) {
         break missingId;
       }
 
@@ -157,9 +179,9 @@ public final class FragmentUsersInfoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentUsersInfoBinding((ConstraintLayout) rootView, guideline4, table, useremail,
-          useremaildisplay, userid, useriddisplay, userinfologoutbtn, userinfoprogressbar, username,
-          usernamedisplay);
+      return new FragmentUsersInfoBinding((ConstraintLayout) rootView, cardView, guideline6, table,
+          textView7, useremail, useremaildisplay, userid, useriddisplay, userinfologoutbtn,
+          userinfoprogressbar, username, usernamedisplay);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

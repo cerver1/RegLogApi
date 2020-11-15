@@ -3,32 +3,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/userinfobackgroubd"
+    android:background="@drawable/mybackground"
+
     tools:context="com.example.ui.home.UsersInfo">
 
 
-    <TableLayout
-        android:id="@+id/table"
-        android:layout_width="280dp"
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:cardBackgroundColor="#22333B"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:layout_constraintCircleRadius="@dimen/_200sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_reglogapplogo">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="@dimen/_245sdp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginEnd="@dimen/_27sdp"
+        android:layout_marginRight="@dimen/_27sdp"
+        android:text="@string/profile"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="@dimen/_30ssp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.074"
+        tools:text="@string/profile" />
+
+    <TableLayout
+
+        android:id="@+id/table"
+        android:background="@drawable/ic_buttonbg"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_100sdp"
         android:layout_centerInParent="true"
-        android:padding="12dp"
+        android:layout_marginStart="@dimen/_27sdp"
+        android:layout_marginLeft="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_13sdp"
+        android:layout_marginRight="@dimen/_13sdp"
+        android:padding="@dimen/_20sdp"
         android:stretchColumns="*"
-        app:layout_constraintBottom_toTopOf="@+id/userinfologoutbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.817">
-
+        app:layout_constraintTop_toBottomOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline6">
 
 
         <TableRow>
 
             <TextView
                 android:id="@+id/userid"
-                android:text="ID"
-                  />
+                android:text="@string/id" />
 
             <TextView
                 android:id="@+id/useriddisplay"
@@ -41,7 +100,7 @@
 
             <TextView
                 android:id="@+id/username"
-                android:text="Name" />
+                android:text="@string/name" />
 
             <TextView
                 android:id="@+id/usernamedisplay"
@@ -54,8 +113,7 @@
 
             <TextView
                 android:id="@+id/useremail"
-                android:text="Email"
-                  />
+                android:text="@string/email" />
 
             <TextView
                 android:id="@+id/useremaildisplay"
@@ -69,36 +127,26 @@
     <Button
 
         android:id="@+id/userinfologoutbtn"
-        android:layout_width="133dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="449dp"
-        android:layout_marginBottom="231dp"
-        android:background="@drawable/loginbutton"
-        android:text="Logout"
+        style="@style/btnstyle"
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:background="@drawable/ic_buttonbg"
+        android:text="@string/logout"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/table">
 
     </Button>
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="59dp" />
 
     <ProgressBar
         android:id="@+id/userinfoprogressbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="252dp"
+        android:layout_marginBottom="@dimen/_1sdp"
         app:layout_constraintBottom_toTopOf="@+id/table"
         app:layout_constraintEnd_toEndOf="@+id/table"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/table" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

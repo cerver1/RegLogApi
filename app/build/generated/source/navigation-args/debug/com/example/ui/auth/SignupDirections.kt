@@ -6,7 +6,7 @@ import com.example.reglogapi.R
 
 class SignupDirections private constructor() {
   companion object {
-    fun actionRegisterToLogin(): NavDirections =
-        ActionOnlyNavDirections(R.id.action_register_to_login)
+    fun actionSignupToLogin2(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_signup_to_login2)
   }
 }
