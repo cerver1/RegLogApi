@@ -20,6 +20,10 @@
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_password.png"
     },
     {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_reglogapplogo___copy.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_reglogapplogo___copy.png"
+    },
+    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mybackground.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\mybackground.png"
     },
@@ -36,12 +40,20 @@
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.xml.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\drawable\\splashscreen.xml"
+    },
+    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_password.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_password.png"
+    },
+    {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_reglogapplogo___copy.xml.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_reglogapplogo___copy.xml"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_buttonbg.png.flat",
@@ -60,24 +72,24 @@
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_reglogapplogo.png"
     },
     {
-        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_buttonbg.png.flat",
-        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_buttonbg.png"
-    },
-    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_buttonbg.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_buttonbg.png"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_user.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_user.png"
     },
     {
-        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nave_home.xml.flat",
-        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\navigation\\nave_home.xml"
-    },
-    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mybackground.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\mybackground.png"
+    },
+    {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nave_home.xml.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\navigation\\nave_home.xml"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_password.png.flat",
@@ -100,16 +112,16 @@
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user.png.flat",
-        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_user.png"
-    },
-    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_password.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_password.png"
+    },
+    {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_user.png"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mybackground.png.flat",
@@ -160,12 +172,16 @@
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_folder.png"
     },
     {
-        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_auth.xml.flat",
-        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\layout\\activity_auth.xml"
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_reglogapplogo___copy.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_reglogapplogo___copy.png"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_folder.xml.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_folder.xml"
+    },
+    {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_auth.xml.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\layout\\activity_auth.xml"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -180,12 +196,16 @@
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_reglogapplogo.png"
     },
     {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mybackground.xml.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\mybackground.xml"
     },
     {
-        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_reglogapplogo___copy.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_reglogapplogo___copy.png"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -212,12 +232,28 @@
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_buttonbg.png"
     },
     {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_reglogapplogo___copy.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_reglogapplogo___copy.png"
+    },
+    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_password.png.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_password.png"
     },
     {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_reglogapplogo___copy.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_reglogapplogo___copy.png"
+    },
+    {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
         "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_reglogapplogo___copy.png.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_reglogapplogo___copy.png"
+    },
+    {
+        "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_splashscreen.xml.flat",
+        "source": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\src\\main\\res\\drawable-v23\\splashscreen.xml"
     },
     {
         "merged": "C:\\Users\\rufans\\AndroidStudioProjects\\RegLogApi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_buttonbg.png.flat",

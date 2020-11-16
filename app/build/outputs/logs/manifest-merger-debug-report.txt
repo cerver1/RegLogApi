@@ -119,7 +119,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ru
 	android:allowBackup
 		ADDED from C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:14:9-44
 activity#com.example.ui.home.HomeActivity
 ADDED from C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:15:9-16:51
 	android:screenOrientation

@@ -33,8 +33,8 @@
 21        android:supportsRtl="true"
 21-->C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:13:9-35
 22        android:testOnly="true"
-23        android:theme="@style/AppTheme" >
-23-->C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:14:9-40
+23        android:theme="@style/splashscreen" >
+23-->C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:14:9-44
 24        <activity
 24-->C:\Users\rufans\AndroidStudioProjects\RegLogApi\app\src\main\AndroidManifest.xml:15:9-16:51
 25            android:name="com.example.ui.home.HomeActivity"
