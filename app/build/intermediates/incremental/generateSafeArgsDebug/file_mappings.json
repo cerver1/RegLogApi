@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nave_home.xml","javaFiles":[]},{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.ui.auth.LoginDirections","com.example.ui.auth.SignupDirections"]}]
