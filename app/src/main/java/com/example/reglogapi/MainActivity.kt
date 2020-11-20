@@ -11,20 +11,16 @@ import com.example.ui.startNewActivity
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setTheme(R.style.AppTheme)
-        setContentView(R.layout.activity_main)
 
+         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
         val userPreferences = UserPreferences(this)
 
         userPreferences.authtoken.asLiveData().observe(this, {
-
-
             val activity = if (it == null) AuthActivity::class.java else HomeActivity::class.java
             startNewActivity(activity)
             finish()
-
 
         })
 

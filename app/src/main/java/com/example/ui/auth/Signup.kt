@@ -46,7 +46,10 @@ class Signup : Basefragment<SignUpViewmodel, FragmentSignupBinding, SignUpReposi
                 }
 
 
-                is Resources.Failure -> handleApiError(it)
+                is Resources.Failure -> {
+                    handleApiError(it)
+                    binding.logintxtbtn.enable(false)
+                }
             }
         })
 
@@ -71,6 +74,7 @@ class Signup : Basefragment<SignUpViewmodel, FragmentSignupBinding, SignUpReposi
             } else {
                 Toast.makeText(activity, getString(R.string.regconfimation), Toast.LENGTH_SHORT)
                     .show()
+                binding.logintxtbtn.enable(true)
             }
 
 
